@@ -1,5 +1,7 @@
 # @pnpm/default-fetcher
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/pnpm/default-fetcher.svg)](https://greenkeeper.io/)
+
 > pnpm's default package fetcher
 
 <!--@shields('npm', 'travis')-->
