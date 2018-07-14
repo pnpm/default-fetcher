@@ -1,9 +1,8 @@
 dependencies:
-  '@pnpm/default-fetcher': 'link:../__package_previews__/default-fetcher/@pnpm/default-fetcher'
   '@pnpm/fetcher-base': 1.0.0
   '@pnpm/git-fetcher': 1.0.0
   '@pnpm/resolver-base': 1.1.0
-  '@pnpm/tarball-fetcher': 2.0.0
+  '@pnpm/tarball-fetcher': 1.0.0
 devDependencies:
   '@pnpm/logger': 1.0.2
   '@types/tape': 4.2.32
@@ -72,7 +71,7 @@ packages:
       node: '>=4'
     resolution:
       integrity: sha512-NnkmxKFQJMkHL2TcLAl2sof7mVu8dgode4zGzwtvEaZ/xjOHm3CfUJomincmZcpWoXrjHkvbPxjczEPP41Wmqg==
-  /@pnpm/tarball-fetcher/2.0.0:
+  /@pnpm/tarball-fetcher/1.0.0:
     dependencies:
       '@pnpm/fetcher-base': 1.0.0
       '@types/mem': 1.1.2
@@ -96,9 +95,9 @@ packages:
     engines:
       node: '>=6'
     peerDependencies:
-      '@pnpm/logger': ^2.1.0
+      '@pnpm/logger': ^1.0.0
     resolution:
-      integrity: sha512-JQd9dgZ9TBRBWmCgLZWZ1fS4BV/YUbQAeInNJa3JCSD6NtcxlytmUyrkAoJtm6daAZbfaZXvjdBm57Ihf+Galg==
+      integrity: sha512-0H16l/W8b6231fMMh1Ze99l7GpX8fvFAQnTyvfu5Poz9Sr6vJDzpIOmPxvdYTNvUZlU4EiTLL2b1nGTuhtP5qw==
   /@pnpm/types/1.7.0:
     dev: false
     resolution:
@@ -3555,7 +3554,7 @@ specifiers:
   '@pnpm/git-fetcher': ^1.0.0
   '@pnpm/logger': ^1.0.0
   '@pnpm/resolver-base': ^1.1.0
-  '@pnpm/tarball-fetcher': ^2.0.0
+  '@pnpm/tarball-fetcher': ^1.0.0
   '@types/tape': ^4.2.31
   mos: ^2.0.0-alpha.3
   mos-plugin-readme: ^1.0.4
